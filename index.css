@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Ubuntu:wght@300;400;500&display=swap');
+
+*{
+    background: black;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Rajdhani', monospace;
     margin: 0;
     padding: 0;
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    background: black;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -11,16 +16,14 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0
 
 
 .hero {
-    text-align: center;
     margin: auto;
-    width: 400px;
-    height: 300px;
+    text-align: center;
+    width: 40vw;
+    height: 60vh;
     color: white;
-    background-color: #222;
+    background-color: black;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border: 5px solid black;
 }
 
 h1 {
@@ -44,10 +47,61 @@ p {
 
 footer {
     margin-top: auto;
-    background-color: #222;
+    background-color: black;
     color: white;
     text-align: center;
-    height: 30px;
-    padding: 10px;
-    padding-bottom: 20px
+    height: 2%;
+}
+
+#username, #password{
+    width: 70%;
+    margin-bottom:3vh;
+    height: 7vh;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    background: #14213D;
+    font-family: 'Rajdhani', monospace;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+#username{
+    margin-top: 7vh;
+}
+
+.btn-flex{
+    margin-top: 10vh;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-right: 15%;
+    margin-left: 15%;
+
+}
+
+#login-btn, #signup-btn{
+    background: #1C5EEE;
+    width: 40%;
+    margin-bottom:2vh;
+    height: 6vh;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Rajdhani', monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+} 
+
+#login-btn:hover, #signup-btn:hover{
+    transition: 0.2s;
+    transform: translateY(-5px);
+
+}
+
+#username.focus{
+    outline: none;
 }
