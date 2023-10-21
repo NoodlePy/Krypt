@@ -1,18 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Ubuntu:wght@300;400;500&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Rajdhani', monospace;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background: black;
 }
 
 header {
-    background-color: #222;
+    background-color: black;
     color: #fff;
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 50px;
+    margin-bottom: 15vh;
 }
 
 .heading_container {
@@ -23,7 +26,7 @@ header {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #222;
+    background-color: black;
     margin-right: 20px;
 }
 
@@ -71,11 +74,11 @@ header {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    color: #FCA311;
 }
 
 .active {
-    background-color: #04AA6D;
+    color: #FCA311;
 }
 
 h1 {
