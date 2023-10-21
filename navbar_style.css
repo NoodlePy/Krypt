@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.heading_container {
+    padding-left: 20px;
+}
+.nav_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222;
+    margin-right: 20px;
+}
+
+.nav_li {
+    float: left;
+}
+
+.nav_a {
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+@media (max-width: 481px) {
+    .heading_container {
+        font-size: 6px;
+    }
+
+    .nav_ul {
+        overflow: auto;
+        white-space: nowrap;
+    }
+
+    .nav_li {
+        float: none;
+        display: inline-block;
+    }
+
+    .nav_a {
+        font-weight: bold;
+        font-size: 8px;
+        padding: 12px;
+    }
+}
+@media (max-width: 369px) {
+    .heading_container {
+        font-size: 10px;
+    }
+    .nav_a {
+        padding: 10px;
+    }
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+h1 {
+    margin-top: 20px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+@media (max-width: 480px) {
+    .nav_a {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 468px) {
+    .heading_container {
+        font-size: 9px;
+    }
+    .nav_a {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 621px) {
+    .nav_a {
+        font-size: 10px;
+        padding: 12px;
+    }
+    .heading_container {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 431px) {
+    .nav_a {
+        padding: 9px;
+    }
+    .heading_container {
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 280px) {
+    .nav_a {
+        font-size: 9px;
+        padding: 4px;
+    }
+    .heading_container {
+        padding-left: 8px;
+        font-size: 6px;
+        
+    }
+}
