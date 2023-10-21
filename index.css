@@ -59,6 +59,7 @@ footer {
     height: 7vh;
     text-align: center;
     border-radius: 4px;
+    font-size: large;
     border: none;
     background: #14213D;
     font-family: 'Rajdhani', monospace;
@@ -89,6 +90,7 @@ footer {
     height: 6vh;
     text-align: center;
     border-radius: 4px;
+    font-size: large;
     border: none;
     font-family: 'Rajdhani', monospace;
     font-weight: bold;
