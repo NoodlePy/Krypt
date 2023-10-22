@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Ubuntu:wght@300;400;500&display=swap');
+
+body {
+    font-family: 'Rajdhani', monospace;
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 6vh;
+}
+
+nav h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.heading_container {
+    padding-left: 20px;
+}
+.nav_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    margin-right: 20px;
+}
+
+.nav_li {
+    float: left;
+}
+
+.nav_a {
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    color: #FCA311;
+}
+
+.active {
+    color: #FCA311;
+}
+
+h1 {
+    margin-top: 20px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+@media (max-width: 383px){
+    .nav_a {
+        padding: 14px 10px;
+    }
+}
+
+@media (max-width: 347px) {
+    .nav_a {
+        font-size: small;
+    }
+}
+
+@media (max-width: 314px) {
+    .heading_container h1 {
+        font-size: 15px;
+    }
+    .nav_a {
+        font-size: 9px
+    }
+}

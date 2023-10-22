@@ -1,0 +1,40 @@
+#assets_heading {
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inp_field {
+    display: flex;
+}
+
+
+
+#crypto {
+    margin-left: 2vw;
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    border: 1px solid #555;
+}
+
+.amount {
+    background-color: black;
+    border: 1px solid #555;
+    color: white;
+    margin-left: 0.5vw;
+    width: 70vw;
+}
+
+.add_btn {
+    margin-left: 0.5vw;
+    color: white;
+    background-color: #00ff9d85;
+    border: 1px solid #00ff9d85;
+    text-align: center;
+    width: 14vw;
+    margin-right: 2vw;
+}
