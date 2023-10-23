@@ -12,15 +12,35 @@
 }
 
 .crypto {
+    height: 6vh;
     margin-left: 2vw;
     width: 11vw;
     height: 30px;
     background-color: black;
     border: 1px solid #555;
-    text-align: center;
     color: white;
     font-size: large;
     font-family: "Rajdhani",monospace;
+    display: flex;
+    align-items: center;
+}
+
+.asset_crypto {
+    height: 6vh;
+    margin-left: 2vw;
+    width: 11vw;
+    height: 30px;
+    background-color: black;
+    border: 1px solid #555;
+    color: white;
+    font-size: large;
+    font-family: "Rajdhani",monospace;
+    display: flex;
+    align-items: center;
+}
+
+.crypto_text {
+    margin-left: 0.2vw;
 }
 
 .amount {
@@ -31,18 +51,42 @@
     margin-left: 0.5vw;
     width: 70vw;
     font-family: "Rajdhani",monospace;
+    display: flex;
+    align-items: center;
 }
 
 .add_btn {
     font-size: large;
     margin-left: 0.5vw;
     color: white;
-    background-color: #00ff9d85;
+    background-color: #00ff9d9f;
     border: 1px solid #00ff9d85;
     text-align: center;
     width: 14vw;
     margin-right: 2vw;
     font-family: "Rajdhani",monospace;
+    font-weight: bold;
+}
+
+.edit {
+    font-size: large;
+    margin-left: 0.5vw;
+    color: white;
+    background-color: #007bffdc;
+    border: 1px solid #007bffbb;
+    text-align: center;
+    width: 12vw;
+    margin-right: 2vw;
+    font-family: "Rajdhani",monospace;
+    font-weight: bold;
+}
+
+.amount::-webkit-inner-spin-button, 
+.amount::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
 }
 
 .invis {
