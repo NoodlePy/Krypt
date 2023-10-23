@@ -11,25 +11,30 @@
     display: flex;
 }
 
-
-
-#crypto {
+.crypto {
     margin-left: 2vw;
-    width: 150px;
+    width: 11vw;
     height: 30px;
     background-color: black;
     border: 1px solid #555;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: "Rajdhani",monospace;
 }
 
 .amount {
+    font-size: large;
     background-color: black;
     border: 1px solid #555;
     color: white;
     margin-left: 0.5vw;
     width: 70vw;
+    font-family: "Rajdhani",monospace;
 }
 
 .add_btn {
+    font-size: large;
     margin-left: 0.5vw;
     color: white;
     background-color: #00ff9d85;
@@ -37,4 +42,13 @@
     text-align: center;
     width: 14vw;
     margin-right: 2vw;
+    font-family: "Rajdhani",monospace;
+}
+
+.invis {
+    margin-top: 10vh;
+}
+
+.asset_margin {
+    margin-bottom: 1vh;
 }
