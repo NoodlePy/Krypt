@@ -3,6 +3,15 @@ const main_cont = document.querySelector(".assets")
 const inp_crypto = document.querySelector(".crypto")
 const inp_value = document.querySelector(".amount")
 const invis = document.querySelector(".invis")
+var edit_btns = document.getElementsByClassName("edit")
+console.log(edit_btns)
+var del_btns = document.getElementsByClassName("del_btn")
+
+
+
+
+
+
 
 
 
@@ -33,8 +42,13 @@ add_btn.addEventListener("click", function() {
 
         const edit_btn = document.createElement("button")
         asset_cont.appendChild(edit_btn)
-        edit_btn.innerHTML = "Edit"
+        edit_btn.innerHTML = `<img src="edit.png" class="edit_img"></img>`
         edit_btn.classList.add("edit")
+        
+        const del_btn = document.createElement("button")
+        del_btn.classList.add("del_btn")
+        asset_cont.appendChild(del_btn)
+        del_btn.innerHTML = `<img src="del.png" class="del_img"></img>`
 
         main_cont.insertBefore(invis,asset_cont)
     }
