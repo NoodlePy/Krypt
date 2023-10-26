@@ -3,10 +3,23 @@ const main_cont = document.querySelector(".assets")
 const inp_crypto = document.querySelector(".crypto")
 const inp_value = document.querySelector(".amount")
 const invis = document.querySelector(".invis")
-
 var del_btns = document.getElementsByClassName("del_btn")
 
+
+
+
+function clearAssets(){
+    console.log("clearing Assets")
+    for (var i = 0; i < main_cont.children.length; i++) {
+        if (main_cont.children[i].id == "invis"){} else {
+            main_cont.children[i].remove()
+        }
+    }  
+}
+
+
 function createAsset(crypto,value){
+    console.log("creating asset")
     const asset_cont = document.createElement("div")
         main_cont.insertBefore(asset_cont,invis)
         asset_cont.classList.add("inp_field")
@@ -51,6 +64,7 @@ function createAsset(crypto,value){
             asset_cont.appendChild(edit_inp)
             asset_cont.insertBefore(edit_inp,amount_div)
             amount_div.remove()
+            edit_inp.setAttribute("type","number")
             edit_inp.setAttribute("placeholder","Press Enter to Save")
             edit_inp.focus()
             edit_inp.select()
@@ -77,17 +91,39 @@ function createAsset(crypto,value){
         })
 }
 
-window.onload = function() {
-    console.log("loaded")
+function loadAssets() {
+    console.log("loading assets")
+    clearAssets()
     Object.keys(localStorage).forEach(key => {
         createAsset(key,localStorage.getItem(key))
     });
 }
 
+function updateAssets() {
+    console.log("Updating assets")
+    clearAssets()
+    console.log("cleared assets")
+    loadAssets()
+    console.log("loaded assets")
+}
+
+window.onload = function() {
+    loadAssets()
+    console.log("loaded assets onload")
+}
+
+
 add_btn.addEventListener("click", function() {
     if (inp_value.value && !(inp_value.value == 0)) {
-        window.localStorage.setItem(inp_crypto.value,inp_value.value)
-        createAsset(inp_crypto.value,inp_value.value)
-        console.log(localStorage)
+        if (!(localStorage.getItem(inp_crypto.value))){
+            window.localStorage.setItem(inp_crypto.value,inp_value.value)
+            createAsset(inp_crypto.value,inp_value.value)
+            console.log(localStorage)
+        } else {
+            console.log("key alr exists")
+            localStorage.setItem(inp_crypto.value , +localStorage.getItem(inp_crypto.value)+(+inp_value.value))
+            console.log(localStorage.getItem(inp_crypto.value))
+            updateAssets()
+        }
     }
 })
