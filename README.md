@@ -1,10 +1,6 @@
-# Krypt
+# Dependencies for Krypt
 
-# Dependencies for Node.js
-
-Run
-
-npm i
+Run npm i
 
 OR
 
