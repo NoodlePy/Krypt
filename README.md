@@ -1,5 +1,6 @@
-# Dependencies for Krypt
+# Setup
 
+## Step 1 )
 Run npm i
 
 OR
@@ -12,3 +13,7 @@ install the following packages:
 "dotenv": "^16.3.1",
 "express": "^4.18.2",
 "node-fetch": "^3.3.2"
+
+## Step 2 ) 
+
+Add your CoinMarketCap API key to /backend/.env
