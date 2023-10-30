@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 </head>
 <body>
     <header>
@@ -25,7 +26,16 @@
         </ul>
       </header>
       
-      <p id="dashboard_heading">Dash<span style="color: #fca311">board</span></p>
-      
+      <p class="dashboard_heading">Dash<span style="color: #fca311">board</span></p>
+
+      <div class="main_cont">
+        <div id="assetDistribution" class="chartContainer"></div>
+        <div id="priceDistribution" class="chartContainer"></div>
+        <div id="cryptoLine" class="chartContainer"></div>
+      </div>
+
+      <p class="dashboard_heading">Total Value: <span style="color: #fca311" id="t_span">$</span></p>
+
+      <script src="js/dashboard.js"></script>
 </body>
 </html>
