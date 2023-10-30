@@ -2,6 +2,44 @@ body{
     overflow-x: hidden
 }
 
+
+#main_total {
+    margin-bottom: -4.5vh;
+    text-decoration: underline;
+
+}
+
+#popularcrypto_heading {
+    margin-top: 10vh;
+    text-decoration: underline;
+    margin-bottom: 3vh;
+}
+
+.coin_widget{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.crypto_chart_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    transform: scale(0.9);
+}
+
+#crypto-chart {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.crypto_price {
+    margin-bottom: -4.5vh
+}
+
 .dashboard_heading {
     color: white;
     font-weight: bolder;
