@@ -90,3 +90,11 @@ p {
         font-size: 9px
     }
 }
+
+footer {
+    margin-top: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 2%;
+}
