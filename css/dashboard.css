@@ -1,0 +1,28 @@
+body{
+    overflow-x: hidden
+}
+
+.dashboard_heading {
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 2px;
+    margin-bottom: 10vh
+}
+
+.main_cont {
+    display: flex;
+}
+
+.chartContainer {
+    height: 50vh;
+    width: 50vw;
+}
+
+#priceDistribution {
+    margin-right: -50vw;
+}
+
