@@ -1,7 +1,14 @@
 # Krypt
 
 # Dependencies for Node.js
-# Install in /backend/
+
+Run
+
+npm i
+
+OR
+
+install the following packages:
 
 "body-parser": "^1.20.2",
 "canvasjs": "^1.8.3",
