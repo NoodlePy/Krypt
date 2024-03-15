@@ -1,11 +1,15 @@
 # Setup
 
 ## Step 1 )
-Run npm i
+
+Run the following commands:
+
+cd backend
+npm i
 
 OR
 
-install the following packages:
+Install the following packages:
 
 "body-parser": "^1.20.2",
 "canvasjs": "^1.8.3",
