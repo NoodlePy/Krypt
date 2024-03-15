@@ -4,7 +4,7 @@
 
 Run the following commands:
 
-cd backend
+cd backend  
 npm i
 
 OR
