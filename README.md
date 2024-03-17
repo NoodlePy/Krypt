@@ -21,3 +21,8 @@ Install the following packages:
 ## Step 2 ) 
 
 Add your CoinMarketCap API key to /backend/.env
+
+## Step 3 )
+
+cd /backend/
+node server.js
