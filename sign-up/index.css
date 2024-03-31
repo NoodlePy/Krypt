@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Ubuntu:wght@300;400;500&display=swap');
+
+*{
+    background: black;
+}
+
+body {
+    font-family: 'Rajdhani', monospace;
+    margin: 0;
+    padding: 0;
+    background: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hero {
+    margin: auto;
+    text-align: center;
+    width: 40vw;
+    height: 60vh;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.text-link {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 2%;
+}
+
+#username, #password{
+    width: 70%;
+    margin-bottom:3vh;
+    height: 7vh;
+    text-align: center;
+    border-radius: 4px;
+    font-size: large;
+    border: none;
+    background: #14213D;
+    font-family: 'Rajdhani', monospace;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+#username{
+    margin-top: 7vh;
+}
+
+.btn-flex{
+    margin-top: 10vh;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-right: 15%;
+    margin-left: 15%;
+
+}
+
+#login-btn, #signup-btn{
+    background: #1C5EEE;
+    width: 40%;
+    margin-bottom:2vh;
+    height: 6vh;
+    text-align: center;
+    border-radius: 4px;
+    font-size: large;
+    border: none;
+    font-family: 'Rajdhani', monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+} 
+
+#login-btn:hover, #signup-btn:hover{
+    transition: 0.2s;
+    transform: translateY(-5px);
+
+}
+
+#username.focus{
+    outline: none;
+}
