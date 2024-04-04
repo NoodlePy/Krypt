@@ -49,4 +49,4 @@ Open index.html in your web browser. Use the "Your Assets" page to add assets to
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ### License
-[MIT]https://choosealicense.com/licenses/mit/
+[MIThttps://choosealicense.com/licenses/mit/]
