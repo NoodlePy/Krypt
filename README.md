@@ -1,5 +1,6 @@
 # Krypt - Crypto Portfolio Tracker
-## [Catgegory Prize Winner](https://devpost.com/software/krypt-sfoz0r) in [Boost Hacks 2024](https://boost-hacks.devpost.com/)
+ [Catgegory Prize Winner](https://devpost.com/software/krypt-sfoz0r) in [Boost Hacks 2024](https://boost-hacks.devpost.com/)
+ "Best Blockchain Hack"
 
 ## Overview
 Krypt is a cryptocurrency portfolio tracker that allows users to manage and track their digital assets. It provides a user-friendly interface for adding and visualizing assets, and it fetches real-time data from the CoinMarketCap API.
